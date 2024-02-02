@@ -1,0 +1,36 @@
+img{
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  width: 128px;
+  border-radius: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  color: #444;
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-wrap: balanced;
+}
+
+footer a {
+  color: #777;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #eee;
+  padding: 0.25rem;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 6px;
+  transition: all .3s ease;
+}
+
+footer a:hover {
+  background: #eee;
+  border: 1px solid #ddd;
+}
+

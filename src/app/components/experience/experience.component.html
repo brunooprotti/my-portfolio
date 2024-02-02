@@ -1,1 +1,21 @@
-<p>experience works!</p>
+<section>
+  <h1>{{titleWork}}</h1>
+  <ul>
+    <li *ngFor="let experience of listExperience">
+      <article>
+        <header>
+          <div>
+            <h3>{{experience.name}}</h3>
+            <h4>{{experience.position}}</h4>
+          </div>
+          <time>
+            <p>{{takeStartDate(experience.startDate)}} - {{takeEndDate(experience.endDate)}}</p>
+          </time>
+        </header>
+        <footer>
+          <p>{{experience.summary}}</p>
+        </footer>
+      </article>
+    </li>
+  </ul>
+</section>

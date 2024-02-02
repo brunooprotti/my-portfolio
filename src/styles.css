@@ -3,10 +3,14 @@
 @tailwind utilities;
 
 
+
 html{
   font-family: Menlo, Monaco, Lucida Console, 'Courier New', Courier, monospace;
   background: #FFF;
   letter-spacing: -0.025rem;
+  padding: 4rem;
+  margin: auto;
+  width: 100%;
 }
 
 h1, h2, h3, h4 {
@@ -22,11 +26,29 @@ h1, h2, h3, h4 {
                'Helvetica Neue',
                sans-serif;
   font-weight: bold;
+  font-size: x-large;
 }
 
 p {
-  color: #888;
-  font-size: .8rem;
+  color: #666;
+  font-size: .9rem;
   line-height: 1.5;
   text-wrap: pretty;
+}
+
+span {
+  font-weight: bold;
+  font-size: smaller;
+}
+
+section{
+  max-width: 700px;
+  margin: 0 auto 72px;
+}
+
+section > h1, section > h2, section > h3, section >h4{
+  margin-bottom: 8px;
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 1rem;
 }

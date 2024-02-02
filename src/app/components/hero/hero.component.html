@@ -1,1 +1,46 @@
-<p>hero works!</p>
+<section >
+  <div class="flex flex-row items-center justify-between gap-4">
+    <div class="flex flex-col gap-3">
+      <h1>{{name}}</h1>
+      <h2>{{label}}</h2>
+      <p class="flex flex-row items-center gap-1">
+        <WorldMap></WorldMap>
+        {{city}}, {{region}}, {{country}}
+      </p>
+      <footer class="flex gap-1 mt-1">
+
+        <a  [href]="email"
+            [title]="titleEmail"
+            target="_blank"
+            rel="noopener noreferrer"
+            *ngIf="email">
+
+          <Mail></Mail>
+
+        </a>
+        <a  [href]="phone"
+            [title]="titlePhone"
+            target="_blank"
+            rel="noopener noreferrer"
+            *ngIf="phone">
+
+            <Phone></Phone>
+
+        </a>
+
+
+        <a *ngFor="let red of profiles"
+          [href]="red.url"
+          title=""
+          target="_blank"
+          rel="noopener noreferrer">
+          <div [innerHTML]="sanitizer.bypassSecurityTrustHtml(red.svg)"></div>
+
+        </a>
+      </footer>
+    </div>
+    <figure>
+      <img [src]="image" alt="{{name}}">
+    </figure>
+  </div>
+</section>

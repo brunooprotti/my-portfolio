@@ -1,0 +1,141 @@
+{
+  "basics": {
+    "name": "Bruno Protti",
+    "label": "Desarrollador Fullstack con más de 3 años de experiencia",
+    "image": "https://media.licdn.com/dms/image/C4D03AQFaWd92Qwu0Rg/profile-displayphoto-shrink_800_800/0/1655822777306?e=1712188800&v=beta&t=Y9xag7v34ylv8aJO5FrCEJO7eoqUmTbmLcewhIMJ_CA",
+    "email": "brunooprotti@gmail.com",
+    "phone": "+543532496648",
+    "url": "https://brunoprotti.com",
+    "summary": "Soy desarrollador full stack en Angular y .NET Core, me gusta trabajar en equipo, aprender nuevos conocimientos, soy comprometido, me adapto fácilmente a las nuevas tecnologías y equipos de trabajo.",
+    "location": {
+      "address": "Bartolomé Mitre 143",
+      "postalCode": "5980",
+      "city": "Oliva",
+      "countryCode": "AR",
+      "region": "Cordoba"
+    },
+    "profiles": [
+      {
+      "network": "GitHub",
+      "username": "brunooprotti",
+      "url": "https://github.com/brunooprotti",
+      "svg": "<svg width='16' height='16' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'> <path fill='currentColor' d='M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12'> </path></svg>"
+      },
+      {
+      "network": "LinkedIn",
+      "username": "brunoprotti",
+      "url": "https://www.linkedin.com/in/brunoprotti/",
+      "svg": "<svg height='16' width='16' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'> <title>LinkedIn</title><path fill='currentColor' d='M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z'></path></svg>"
+      },
+      {
+      "network": "Instagram",
+      "username": "brunoprotti",
+      "url": "https://www.instagram.com/brunoprotti/",
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' width='16' height='16' viewBox='0 0 256 256' xml:space='preserve'><g style='stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;' transform='translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)' ><path d='M 62.263 90 H 27.738 C 12.443 90 0 77.557 0 62.263 V 27.738 C 0 12.443 12.443 0 27.738 0 h 34.525 C 77.557 0 90 12.443 90 27.738 v 34.525 C 90 77.557 77.557 90 62.263 90 z M 27.738 7 C 16.303 7 7 16.303 7 27.738 v 34.525 C 7 73.697 16.303 83 27.738 83 h 34.525 C 73.697 83 83 73.697 83 62.263 V 27.738 C 83 16.303 73.697 7 62.263 7 H 27.738 z' style='stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;' transform=' matrix(1 0 0 1 0 0) ' stroke-linecap='round' /><path d='M 45.255 70.47 c -13.904 0 -25.215 -11.312 -25.215 -25.215 S 31.352 20.04 45.255 20.04 s 25.215 11.312 25.215 25.215 S 59.159 70.47 45.255 70.47 z M 45.255 27.04 c -10.044 0 -18.215 8.171 -18.215 18.215 c 0 10.044 8.171 18.215 18.215 18.215 c 10.044 0 18.215 -8.171 18.215 -18.215 C 63.471 35.211 55.3 27.04 45.255 27.04 z' style='stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;' transform=' matrix(1 0 0 1 0 0) ' stroke-linecap='round' /><circle cx='70.557' cy='19.936999999999998' r='4.897' style='stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;' transform='  matrix(1 0 0 1 0 0) '/></g></svg>"
+      }
+  ]
+  },
+  "work":{
+    "titleSection":"Trabajos",
+    "experience": [
+    {
+    "name": "Algeiba",
+    "position": "Technical Specialist",
+    "url": "https://algeiba.com",
+    "startDate": "2022-06-21",
+    "endDate": null,
+    "summary": "Description…",
+    "highlights": [
+      "Started the company"
+    ]
+  },
+  {
+    "name": "Aumax",
+    "position": "Desarrollador Fullstack",
+    "url": "http://www.aumax.com.ar/",
+    "startDate": "2021-01-01",
+    "endDate": "2022-06-18",
+    "summary": "Description…",
+    "highlights": [
+      "Started the company"
+    ]
+  }
+    ]
+},
+  "volunteer": [{
+    "organization": "Organization",
+    "position": "Volunteer",
+    "url": "https://organization.com/",
+    "startDate": "2012-01-01",
+    "endDate": "2013-01-01",
+    "summary": "Description…",
+    "highlights": [
+      "Awarded 'Volunteer of the Month'"
+    ]
+  }],
+  "education": [{
+    "institution": "University",
+    "url": "https://institution.com/",
+    "area": "Software Development",
+    "studyType": "Bachelor",
+    "startDate": "2011-01-01",
+    "endDate": "2013-01-01",
+    "score": "4.0",
+    "courses": [
+      "DB1101 - Basic SQL"
+    ]
+  }],
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "certificates": [{
+    "name": "Certificate",
+    "date": "2021-11-07",
+    "issuer": "Company",
+    "url": "https://certificate.com"
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "url": "https://publication.com",
+    "summary": "Description…"
+  }],
+  "skills": [{
+    "name": "Web Development",
+    "level": "Master",
+    "keywords": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  }],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  }],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference…"
+  }],
+  "projects": [{
+    "name": "Project",
+    "startDate": "2019-01-01",
+    "endDate": "2021-01-01",
+    "description": "Description...",
+    "highlights": [
+      "Won award at AIHacks 2016"
+    ],
+    "url": "https://project.com/"
+  }]
+}
