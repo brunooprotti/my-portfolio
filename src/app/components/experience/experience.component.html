@@ -1,15 +1,15 @@
 <section>
   <h1>{{titleWork}}</h1>
-  <ul>
-    <li *ngFor="let experience of listExperience">
+  <ul class="mt-4">
+    <li *ngFor="let experience of listExperience" class="mb-8">
       <article>
-        <header>
+        <header class="flex justify-between items-center">
           <div>
-            <h3>{{experience.name}}</h3>
-            <h4>{{experience.position}}</h4>
+            <h3 class="font-medium text-base">{{experience.name}}</h3>
+            <h4 class="font-normal text-base">{{experience.position}}</h4>
           </div>
           <time>
-            <p>{{takeStartDate(experience.startDate)}} - {{takeEndDate(experience.endDate)}}</p>
+            {{takeStartDate(experience.startDate)}} - {{takeEndDate(experience.endDate)}}
           </time>
         </header>
         <footer>

@@ -1,3 +1,24 @@
 <section>
-  <p>projects works!</p>
+  <h1>{{title}}</h1>
+  <ul>
+    <li *ngFor="let item of projects">
+      <article>
+        <header>
+          <h3>
+            <a [href]="item.url"
+              [attr.title]="item.name">
+              {{item.name}}
+              <span *ngIf="item.isActive">&bull;</span>
+            </a>
+          </h3>
+          <p>{{item.description}}</p>
+        </header>
+        <footer>
+          <span *ngFor="let highlight of item.highlights">
+            {{highlight}}
+          </span>
+        </footer>
+      </article>
+    </li>
+  </ul>
 </section>

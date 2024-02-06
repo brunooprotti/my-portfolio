@@ -7,8 +7,12 @@
         <WorldMap></WorldMap>
         {{city}}, {{region}}, {{country}}
       </p>
-      <footer class="flex gap-1 mt-1">
-
+      <footer class="print">
+        <div *ngFor="let contact of contactInformation">
+             &bull; {{contact}}
+        </div>
+      </footer>
+      <footer class="flex gap-1 mt-1 no-print">
         <a  [href]="email"
             [title]="titleEmail"
             target="_blank"
@@ -31,7 +35,7 @@
 
         <a *ngFor="let red of profiles"
           [href]="red.url"
-          title=""
+          [attr.title]="red.network"
           target="_blank"
           rel="noopener noreferrer">
           <div [innerHTML]="sanitizer.bypassSecurityTrustHtml(red.svg)"></div>

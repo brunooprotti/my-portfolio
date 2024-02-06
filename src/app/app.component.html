@@ -1,7 +1,14 @@
 <app-hero></app-hero>
 <app-about></app-about>
 <app-experience></app-experience>
+<app-skills></app-skills>
 <app-education></app-education>
 <app-projects></app-projects>
-<app-skills></app-skills>
-<footer><p>Keyboard Manager</p></footer>
+
+<footer id="inputPalette" (click)="openCommandsPalette($event)" class="fixed px-4 py-2 w-full bottom-0 left-0 text-center no-print">
+  Pulsa <kbd>Ctrl</kbd> + <kbd>K</kbd> para abrir la paleta de comandos.
+  <input id="inputPalette" (keydown.control.k)="openCommandsPalette($event)">
+</footer>
+
+
+

@@ -12,6 +12,12 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { MailComponent } from './icons/Mail.component';
 import { PhoneComponent } from './icons/Phone.component';
 import { WorldMapComponent } from './icons/WorldMap.component';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import { FormsModule } from '@angular/forms';
+import { MatButtonModule } from '@angular/material/button';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+
 
 @NgModule({
   declarations: [
@@ -28,9 +34,15 @@ import { WorldMapComponent } from './icons/WorldMap.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatFormFieldModule,
+    MatInputModule,
+    FormsModule,
+    MatButtonModule,
   ],
-  providers: [],
+  providers: [
+    provideAnimationsAsync()
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

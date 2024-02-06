@@ -1,4 +1,8 @@
 import { Component } from '@angular/core';
+import { skills } from '@cv';
+import { Skill } from '../../models/Skill';
+
+
 
 @Component({
   selector: 'app-skills',
@@ -6,5 +10,7 @@ import { Component } from '@angular/core';
   styleUrl: './skills.component.css'
 })
 export class SkillsComponent {
+  public title : string = skills.titleSection;
 
+  public skills: Skill[] = skills.listSkills;
 }

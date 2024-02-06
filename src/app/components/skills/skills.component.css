@@ -1,0 +1,14 @@
+li {
+  background: #555;
+  color: white;
+  font-size: .8rem;
+  font-weight: 500;
+  padding: 0.2rem 0.6rem;
+  letter-spacing: .01rem;
+  transition: all 0.3s ease;
+}
+
+li:hover{
+  background: #ccc;
+  color: #444;
+}

@@ -26,6 +26,9 @@
     "paths": {
       "@cv":[
         "./src/assets/cv.json"
+      ],
+      "@commandActions":[
+       "./src/assets/commandActions.json"
       ]
     },
     "resolveJsonModule": true

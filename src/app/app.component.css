@@ -1,0 +1,33 @@
+input {
+  display: none;
+}
+
+footer {
+  background: #fdfdfd;
+  border-top: 1px solid #eee;
+  margin-top: 2rem !important;
+
+  view-timeline-name: --revealing;
+  view-timeline-axis: block;
+
+  animation: linear .3s fadeIn;
+  animation-timeline: --revealing;
+
+  animation-range: entry 100% cover 10%;
+}
+
+.button {
+  background: #444;
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+  color: #eee;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

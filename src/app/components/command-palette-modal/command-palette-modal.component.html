@@ -1,0 +1,31 @@
+<mat-dialog-content class="no-print">
+  <input type="text" class="w-full py-2 px-4" placeholder="Buscar comandos...">
+  <hr class="w-full bg-slate-600">
+  <h6 class="ms-2 mt-2 text-s font-bold">Acciones</h6>
+  <div class="flex w-full justify-between items-center py-3 px-5 hover:bg-gray-200"
+      *ngFor="let action of actionList"
+      (click)="printCV(undefined)">
+    <div class="flex items-center justify-center gap-2">
+      <span [innerHTML]="sanitizer.bypassSecurityTrustHtml(action.svg)"></span>
+      <span class="min-[250px]:hidden">{{action.nameAction}}</span>
+    </div>
+    <span><kbd>{{action.command}}</kbd></span>
+
+  </div>
+
+  <hr class="w-full bg-slate-600 my-2">
+  <h6 class="ms-2 mt-2 text-s font-bold">Redes</h6>
+  <a *ngFor="let red of profiles"
+  [href]="red.url"
+  [attr.title]="red.network"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="flex w-full justify-between items-center py-3 px-6 hover:bg-gray-200">
+    <div class="flex items-center justify-center gap-2">
+      <span [innerHTML]="sanitizer.bypassSecurityTrustHtml(red.svg)"></span>
+      <span class="min-[250px]:hidden">{{red.network}}</span>
+    </div>
+    <span><kbd>{{red.command}}</kbd></span>
+  </a>
+</mat-dialog-content>
+

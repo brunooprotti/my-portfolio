@@ -2,13 +2,9 @@ import { Component } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
 
 import { basics } from '@cv';
+import { Profile } from '../../models/Profile';
 
-interface Profile {
-  "network": string,
-  "username": string,
-  "url": string
-  "svg": string
-}
+
 
 @Component({
   selector: 'app-hero',
@@ -27,8 +23,13 @@ export class HeroComponent {
   public country: string = basics.location.countryCode;
   public titleEmail: string = `Enviar un correo electrónico a ${this.name} al correo ${this.email}`;
   public titlePhone: string = `Llamar por teléfono a ${this.name} al número ${this.phone}`;
+  private linkedInUrl?: string = this.profiles.find(profile => profile.network === 'LinkedIn')?.url;
+  public contactInformation: string [] = [
+    this.email,
+    this.phone,
+    this.linkedInUrl ? this.linkedInUrl : ''
+  ];
 
-  constructor(public sanitizer:DomSanitizer){
-    console.log(this.profiles);
-  }
+  constructor(public sanitizer:DomSanitizer){ }
+
 }

@@ -1,0 +1,10 @@
+mat-dialog-content {
+  /* min-width: 500px; */
+  padding: 0px !important;
+  background: white;
+}
+
+input{
+  width: 100%;
+  border: 0px white solid !important;
+}

@@ -1,3 +1,12 @@
-li > * {
-  margin: 0 !important;
+article h3 {
+  color: #111;
+}
+
+article h4 {
+  color: #222;
+}
+
+time {
+  color: #555;
+  font-size: .85rem;
 }
