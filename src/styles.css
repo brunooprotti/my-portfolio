@@ -64,7 +64,11 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 @media print {
   .no-print {
-    display: none;
+    display: none !important;
+  }
+
+  .cdk-overlay-backdrop.cdk-overlay-backdrop-showing {
+    opacity: 0;
   }
 }
 
