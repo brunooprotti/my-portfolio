@@ -1,3 +1,18 @@
 <section>
-  <p>education works!</p>
+  <h1>Educación</h1>
+  <ul class="mt-4">
+    <li *ngFor="let education of listEducations" class="mb-8">
+      <article>
+        <header class="flex justify-between items-start">
+          <div>
+            <h3 class="font-medium text-base">{{education.institution}}</h3>
+            <h4 class="font-normal text-base">{{education.name}} - {{education.area}}</h4>
+          </div>
+          <time>
+            {{takeStartDate(education.startDate)}}{{takeEndDate(education.endDate)}}
+          </time>
+        </header>
+      </article>
+    </li>
+  </ul>
 </section>

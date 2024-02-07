@@ -87,18 +87,30 @@
       "Awarded 'Volunteer of the Month'"
     ]
   }],
-  "education": [{
-    "institution": "University",
+  "education":{
+    "titleSection":"Educación",
+   "listEducations":[{
+    "institution": "Universidad Tecnologica Nacional FRVM",
+    "url": "https://www.frvm.utn.edu.ar/",
+    "name": "Ingeniería en sistemas de información",
+    "area": "Desarrollo de software",
+    "startDate": "2019-01-01",
+    "endDate": "2021-01-01"
+  },
+  {
+    "institution": "Instituto Trainning Center",
+    "url": "https://www.itcarg.com/",
+    "name": "Técnico en mantenimiento y diagnóstico de Computadoras",
+    "area": "Mantenimiento",
+    "startDate": "2020-01-01"
+  },
+  {
+    "institution": "Instituto Superior Politécnico Córdoba",
     "url": "https://institution.com/",
-    "area": "Software Development",
-    "studyType": "Bachelor",
-    "startDate": "2011-01-01",
-    "endDate": "2013-01-01",
-    "score": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
+    "name": "Desarrollador Full-Stack (Angular - .NET - SQLServer)",
+    "area": "Desarrollo de software",
+    "startDate": "2021-01-01"
+  }]},
   "awards": [{
     "title": "Award",
     "date": "2014-11-01",
@@ -241,66 +253,49 @@
     "titleSection": "Proyectos",
     "listProjects":[
       {
-        "name": "mars.codes",
+        "name": "estafa2",
         "isActive": true,
-        "description": "Historia interactiva con retos de programación para viajar a Marte",
+        "description": "Sitio para denunciar usuarios fraudulentos en instagram u otras plataformas",
         "highlights": [
-          "Elige tu propia aventura",
+          "Backend ASP.NET",
+          "Desarrollado por la comunidad",
           "En desarrollo"
         ],
-        "url": "https://mars.codes"
+        "url": ""
       },
       {
-        "name": "AdventJS",
+        "name": "AxTyres",
         "isActive": true,
-        "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+        "description": "Servicio para gestion de utilitarios de transporte",
         "highlights": [
-          "+1 millón de visitas",
-          "Multidioma",
-          "JavaScript & TypeScript"
+          "Sistema de rastreo",
+          "Sistema de stock",
+          "Angular & ASP.NET"
         ],
-        "url": "https://advent.js/dev"
+        "url": "https://www.axtyres.com/"
       },
       {
-        "name": "Codember",
+        "name": "Nestlé",
         "isActive": true,
-        "description": "Juego interactivo de programación con retos y secretos",
+        "description": "Sistema para el pesaje en balanza de camiones y gestion de recursos",
         "highlights": [
-          "+2000 usuarios activos",
-          "Retos para cualquier lenguaje"
+          "Gestion de recursos",
+          "Sistema de pesaje",
+          "Angular & ASP.NET",
+          "Sistema de notificaciones"
         ],
-        "url": "https://codember.dev"
+        "url": ""
       },
       {
-        "name": "codi.link",
+        "name": "Plannifier",
         "isActive": true,
-        "description": "Playground de código HTML, CSS y JavaScript para compartir",
+        "description": "Sistema para la gestión de recursos y sus tareas",
         "highlights": [
-          "100k visitas al mes",
-          "Desarrollado por la comunidad"
+          "Sistema de gestión",
+          "Organizador"
         ],
-        "url": "https://codi.link",
-        "github": "https://github.com/midudev/codi.link"
-      },
-      {
-        "name": "Pruebas Técnicas",
-        "isActive": true,
-        "description": "Lista de pruebas técnicas de empresas para practicar programación",
-        "highlights": [
-          "100% gratuito",
-          "+500 soluciones de la comunidad"
-        ],
-        "url": "https://pruebastecnicas.com",
-        "github": "https://github.com/midudev/pruebas-tecnicas"
-      },
-      {
-        "name": "miduConf",
-        "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-        "highlights": [
-          "+15k tickets repartidos",
-          "+50k espectadores en directo"
-        ],
-        "url": "https://miduconf.com"
+        "url": "",
+        "github": ""
       }
     ]
   }
