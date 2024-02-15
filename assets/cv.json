@@ -1,0 +1,295 @@
+{
+  "basics": {
+    "name": "Bruno Protti",
+    "label": "Desarrollador Fullstack con más de 3 años de experiencia",
+    "image": "https://media.licdn.com/dms/image/C4D03AQFaWd92Qwu0Rg/profile-displayphoto-shrink_800_800/0/1655822777306?e=1712188800&v=beta&t=Y9xag7v34ylv8aJO5FrCEJO7eoqUmTbmLcewhIMJ_CA",
+    "email": "brunooprotti@gmail.com",
+    "phone": "+543532496648",
+    "url": "https://brunoprotti.com",
+    "summary": "Soy un apasionado desarrollador Fullstack con experiencia en la creación de aplicaciones web escalables, con las tecnologías Angular y .NET. Me gusta trabajar en equipo, aprender nuevos conocimientos, soy comprometido, me adapto fácilmente a las nuevas tecnologías y equipos de trabajo. También tengo experiencia en el uso de metodologías ágiles, pruebas unitarias y control de versiones con Git. Tengo un enfoque en la eficiencia y la calidad del código, también, en la aplicación de arquitecturas. He trabajado en una variedad de proyectos que abarcan desde aplicaciones de seguros hasta sistemas de stock para empresas internacionales.",
+    "location": {
+      "address": "Bartolomé Mitre 143",
+      "postalCode": "5980",
+      "city": "Oliva",
+      "countryCode": "AR",
+      "region": "Cordoba"
+    },
+    "profiles": [
+    {
+      "network": "GitHub",
+      "username": "brunooprotti",
+      "url": "https://github.com/brunooprotti",
+      "svg": "<svg width='16' height='16' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'> <path fill='currentColor' d='M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12'> </path></svg>",
+      "command": "Ctrl + G"
+    },
+    {
+      "network": "LinkedIn",
+      "username": "brunoprotti",
+      "url": "https://www.linkedin.com/in/brunoprotti/",
+      "svg": "<svg height='16' width='16' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'> <title>LinkedIn</title><path fill='currentColor' d='M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z'></path></svg>",
+      "command": "Ctrl + L"
+    }
+  ]
+  },
+  "work":{
+    "titleSection":"Experiencia laboral",
+    "experience": [
+    {
+    "name": "Algeiba",
+    "position": "Technical Specialist",
+    "url": "https://algeiba.com",
+    "startDate": "2022-06-21",
+    "endDate": null,
+    "summary": "Soporte de aplicaciones y desarrollo de evolutivos.  (AngularJS - Angular - .Net Framework - .Net Core).\nReconocimiento por proactividad.",
+    "highlights": [
+      "Started the company"
+    ]
+  },
+  {
+    "name": "Aumax",
+    "position": "Desarrollador Fullstack",
+    "url": "http://www.aumax.com.ar/",
+    "startDate": "2021-01-01",
+    "endDate": "2022-06-18",
+    "summary": "Desarrollo de aplicaciones para empresas nacionales como NESTLE utilizando las tecnologias Kotlin - Angular - .Net Core - SQL. Elicitacion de requerimientos. Soporte de aplicaciones internas. Desarrollo de aplicaciones mobile con kotlin.",
+    "highlights": [
+      "Started the company"
+    ]
+  },
+  {
+    "name": "ABTec",
+    "position": "Desarrollador Fullstack",
+    "url": "http://www.aumax.com.ar/",
+    "startDate": "2020-12-01",
+    "endDate": null,
+    "summary": "Desarrollo de aplicaciones en Angular para empresas pequeñas y locales. Captacion de requerimientos y diagramas de clases para bases de datos.",
+    "highlights": [
+      "Emprendimiento propio"
+    ]
+  }
+    ]
+},
+  "volunteer": [{
+    "organization": "Organization",
+    "position": "Volunteer",
+    "url": "https://organization.com/",
+    "startDate": "2012-01-01",
+    "endDate": "2013-01-01",
+    "summary": "Description…",
+    "highlights": [
+      "Awarded 'Volunteer of the Month'"
+    ]
+  }],
+  "education":{
+    "titleSection":"Educación",
+   "listEducations":[{
+    "institution": "Universidad Tecnologica Nacional FRVM",
+    "url": "https://www.frvm.utn.edu.ar/",
+    "name": "Ingeniería en sistemas de información",
+    "area": "Desarrollo de software",
+    "startDate": "2019-01-01",
+    "endDate": "2021-01-01"
+  },
+  {
+    "institution": "Instituto Trainning Center",
+    "url": "https://www.itcarg.com/",
+    "name": "Técnico en mantenimiento y diagnóstico de Computadoras",
+    "area": "Mantenimiento",
+    "startDate": "2020-01-01"
+  },
+  {
+    "institution": "Instituto Superior Politécnico Córdoba",
+    "url": "https://institution.com/",
+    "name": "Desarrollador Full-Stack (Angular - .NET - SQLServer)",
+    "area": "Desarrollo de software",
+    "startDate": "2021-01-01"
+  }]},
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "certificates": [{
+    "name": "Certificate",
+    "date": "2021-11-07",
+    "issuer": "Company",
+    "url": "https://certificate.com"
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "url": "https://publication.com",
+    "summary": "Description…"
+  }],
+  "skills":
+  {
+    "titleSection": "Tecnologías",
+    "listSkills":[
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "Bootstrap",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "Angular Material",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "PrimeNG",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+      ]
+    },
+    {
+      "name": ".NET",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend", "C#", "Servidor"
+      ]
+    },
+    {
+      "name": "SQL Server",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+      ]
+    },
+    {
+      "name": "AngularJS",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "AngularJS Framework", "SSR", "Static Generation"
+      ]
+    },
+    {
+      "name": "Angular",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Angular Framework", "UI"
+      ]
+    }
+    ]
+  },
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  }],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference…"
+  }],
+  "projects": {
+    "titleSection": "Proyectos",
+    "listProjects":[
+      {
+        "name": "estafa2",
+        "isActive": true,
+        "description": "Sitio para denunciar usuarios fraudulentos en instagram u otras plataformas",
+        "highlights": [
+          "Backend ASP.NET",
+          "Desarrollado por la comunidad",
+          "En desarrollo"
+        ],
+        "url": ""
+      },
+      {
+        "name": "AxTyres",
+        "isActive": true,
+        "description": "Servicio para gestion de utilitarios de transporte",
+        "highlights": [
+          "Sistema de rastreo",
+          "Sistema de stock",
+          "Angular & ASP.NET"
+        ],
+        "url": "https://www.axtyres.com/"
+      },
+      {
+        "name": "Nestlé",
+        "isActive": true,
+        "description": "Sistema para el pesaje en balanza de camiones y gestion de recursos",
+        "highlights": [
+          "Gestion de recursos",
+          "Sistema de pesaje",
+          "Angular & ASP.NET",
+          "Sistema de notificaciones"
+        ],
+        "url": ""
+      },
+      {
+        "name": "Plannifier",
+        "isActive": true,
+        "description": "Sistema para la gestión de recursos y sus tareas",
+        "highlights": [
+          "Sistema de gestión",
+          "Organizador"
+        ],
+        "url": "",
+        "github": ""
+      }
+    ]
+  }
+}
