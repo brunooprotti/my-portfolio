@@ -2,7 +2,7 @@
   "basics": {
     "name": "Bruno Protti",
     "label": "Desarrollador Fullstack con más de 3 años de experiencia",
-    "image": "../assets/images/profile-image.jpg",
+    "image": "assets/images/profile-image.jpg",
     "email": "brunooprotti@gmail.com",
     "phone": "+543532496648",
     "url": "https://brunoprotti.com",
